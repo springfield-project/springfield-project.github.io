@@ -1,4 +1,6 @@
-Springfield
-===========
+---
+layout: default
+---
+
 
 Lorem ipsum.
