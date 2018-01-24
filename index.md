@@ -73,7 +73,7 @@ Functionality
 Interactions
 ----
 
-![A diagram of interactions between the projects.]({{ site.url }}/img/interactions.svg)
+![A diagram of interactions between the projects.]({{ site.url }}/assets/images/interactions.svg)
 *A visual representation of the interactions between the projects.*
 
 So what project should I use?
