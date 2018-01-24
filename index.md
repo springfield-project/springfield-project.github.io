@@ -13,14 +13,16 @@ stack. It is a scalable solution, working from a single node to large
 deployments with a mix of base metal, containers and VMs. For the first time,
 it was presented on Vault 2017 in a birds of a feather session.
 
-Springfield builds upon and enhances the existing work of [Udisks](https://github.com/storaged-project/udisks),
-[libblockdev](https://github.com/storaged-project/libblockdev),
-[Blivet](https://github.com/storaged-project/blivet) and others in order to
-overcome many of the shortcomings of currently available filesystem tools and
-provide a unified approach to storage management. There is nothing like a
-binary or a library with the name "Springfield," it is a name for a coordinated
-efford across the various tools.
+Springfield builds upon and enhances the existing work of those projects:
+  * [udisks](https://github.com/storaged-project/udisks)
+  * [libblockdev](https://storageapis.wordpress.com/projects/libblockdev/)
+  * [blivet](https://storageapis.wordpress.com/projects/blivet/)
+  * [libstoragemgmt](https://libstorage.github.io/libstoragemgmt-doc/)
 
+It is a coordinated effort to overcome many of the shortcomings of currently
+available filesystem tools and provide a unified approach to storage
+management, so there is nothing like a binary or a library with the name
+"Springfield."
 
 OK, but what does it do?
 ========================
@@ -64,10 +66,10 @@ Functionality
 
 |   | external storage | iscsi initiator | local storage | noti-fication | plug-ins | model-ing | high-level API |
 | :--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| udisks        |   | ✓ | ✓ | ✓ | ✓ |   |   |
-| blivet        |   |   | ✓ | ✓ |   | ✓ | ✓ |
-| libblockdev   |   |   | ✓ |   | ✓ |   |   |
-| libstoragmgmt | ✓ |   | **?** |   | ✓ |   |   |
+| udisks         |   | ✓ | ✓ | ✓ | ✓ |   |   |
+| blivet         |   |   | ✓ | ✓ |   | ✓ | ✓ |
+| libblockdev    |   |   | ✓ |   | ✓ |   |   |
+| libstoragemgmt | ✓ |   | **?** |   | ✓ |   |   |
 
 
 Interactions
@@ -79,26 +81,32 @@ Interactions
 So what project should I use?
 =============================
 
-Which Project Fits My Requirements?
-Following are some examples of potential scenarios and guidance as to which of the Springfield projects is best suited for the application.
+Which project fits my requirements? Following are some examples of potential scenarios and guidance as to which of the Springfield projects is best suited for the application.
 
-1. I have a python script that does some lvm management including queries and
-   stack modifications. What should I use?
-   1. libblockdev or blivet. libblockdev is more direct, almost like directly
-      replacing the lvm commands 1:1, but saving you the code for executing
-      programs and parsing output. blivet provides a more complete view of the
-      system’s storage and provides a bit more leverage, but with more overhead.
-      Lastly, lvm provides its own DBus interface for management.
-2. I have a C app that does some lvm management including queries and stack
-   modifications and must run from the initramfs. What should I use?
-   1. libblockdev. blivet is a python module and there is no python runtime in
-      the initramfs.
-3. I have a storage management application that needs to manage local storage
+1. *I have a python script that does some lvm management including queries and
+   stack modifications. What should I use?*
+
+   Libblockdev or blivet. Libblockdev is more direct, almost like directly
+   replacing the lvm commands 1:1, but saving you the code for executing
+   programs and parsing output. Blivet provides a more complete view of the
+   system’s storage and provides a bit more leverage, but with more overhead.
+   Lastly, lvm provides its own DBus interface for management.
+
+2. *I have a C app that does some lvm management including queries and stack
+   modifications and must run from the initramfs. What should I use?*
+
+   Libblockdev. Blivet is a python module and there is no python runtime in
+   the initramfs.
+
+3. *I have a storage management application that needs to manage local storage
    and receive notifications when things change on the stack. What should I
-   use?
-   1. udisks. udisks send signals via DBus whenever a new device is added or
-      removed and can also handle most local storage management tasks.
-4. I have a storage management application that needs to manage external
-   storage arrays or local RAID HBA or SCSI enclosure. What should I use?
-   1. libstoragemgmt.
+   use?*
+
+   Udisks. Udisks send signals via DBus whenever a new device is added or
+   removed and can also handle most local storage management tasks.
+
+4. *I have a storage management application that needs to manage external
+   storage arrays or local RAID HBA or SCSI enclosure. What should I use?*
+
+   Libstoragemgmt.
 
