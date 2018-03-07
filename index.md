@@ -72,12 +72,12 @@ Language Interfaces
 Functionality
 ------
 
-|   | external storage | iscsi initiator | local storage | noti-fication | plug-ins | model-ing | high-level API |
+|   | controller based storage | directly-acessed storage | iscsi initiator | notification | plug-ins | model-ing | high-level API |
 | :--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | udisks         |   | ✓ | ✓ | ✓ | ✓ |   |   |
-| blivet         |   |   | ✓ | ✓ |   | ✓ | ✓ |
-| libblockdev    |   |   | ✓ |   | ✓ |   |   |
-| libstoragemgmt | ✓ |   | **?** |   | ✓ |   |   |
+| blivet         |   | ✓ |   | ✓ |   | ✓ | ✓ |
+| libblockdev    |   | ✓ |   |   | ✓ |   |   |
+| libstoragemgmt | ✓ | ✓ |   |   | ✓ |   |   |
 
 
 Interactions
