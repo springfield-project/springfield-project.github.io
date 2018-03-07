@@ -86,7 +86,7 @@ Interactions
 ![A diagram of interactions between the projects.]({{ site.url }}/assets/images/interactions.svg)
 *A visual representation of the interactions between the projects.*
 
-So what project should I use?
+What project should I use?
 =============================
 
 Which project fits my requirements? Following are some examples of potential scenarios and guidance as to which of the Springfield projects is best suited for the application.
@@ -117,4 +117,18 @@ Which project fits my requirements? Following are some examples of potential sce
    storage arrays or local RAID HBA or SCSI enclosure. What should I use?*
 
    Libstoragemgmt.
+
+So, you'd like to contribute?
+=============================
+
+Thank you for your interest! Any of the joined projects will appreciate your
+help, just contact them (links for your convenience:
+[udisks](https://github.com/storaged-project/udisks),
+[libblockdev](https://storageapis.wordpress.com/projects/libblockdev/),
+[blivet](https://storageapis.wordpress.com/projects/blivet/),
+[libstoragemgmt](https://libstorage.github.io/libstoragemgmt-doc/)).
+
+Or, if you know about another project that would benefit from this joined
+effort, feel free to tell us. The more people cooperating, the better the
+result. In that case, you can write to Jan Tulak (jtulak@redhat.com).
 
