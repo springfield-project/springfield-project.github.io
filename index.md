@@ -6,12 +6,21 @@ layout: default
 What is Project Springfield?
 ============================
 
-Springfield is a collection of projects unifying multiple levels of the storage
-stack and providing a general API for automation, health and status monitoring,
-as well as sane and easy configuration across multiple levels of the storage
-stack. It is a scalable solution, working from a single node to large
-deployments with a mix of base metal, containers and VMs. For the first time,
-it was presented on Vault 2017 in a birds of a feather session.
+Project Springfield's purpose is to coordinate the development of
+management APIs for each component in the storage stack: for automation, health and status monitoring,
+as well as sane and easy configuration. It is a scalable solution, working from a single node to large
+deployments with a mix of base metal, containers and VMs.
+
+The goal is to provide the APIs needed to improve many of the existing
+management tools, and foster the development of new tools, for managing
+storage. The scope includes bare metal, containers, and VMs, at local,
+data center, and enterprise-level deployments. As such, Springfield
+should be viewed as an umbrella project, encompassing a number of sub-
+projects. There is not expected to be a separate binary or a library
+with the name “Springfield.”
+
+Springfield was presented for the first time at Vault 2017 in a birds of a feather session.
+
 
 Springfield builds upon and enhances the existing work of those projects:
   * [udisks](https://github.com/storaged-project/udisks)
@@ -19,10 +28,6 @@ Springfield builds upon and enhances the existing work of those projects:
   * [blivet](https://storageapis.wordpress.com/projects/blivet/)
   * [libstoragemgmt](https://libstorage.github.io/libstoragemgmt-doc/)
 
-It is a coordinated effort to overcome many of the shortcomings of currently
-available filesystem tools and provide a unified approach to storage
-management, so there is nothing like a binary or a library with the name
-"Springfield."
 
 OK, but what does it do?
 ========================
