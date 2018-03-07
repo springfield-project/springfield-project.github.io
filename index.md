@@ -40,7 +40,6 @@ related to storage. Here’s a high-level list of what it entails:
   * provide properties for each device, including relations with other devices
   * drives, partitions, lvm, md
   * drives includes: spinning rust, SSD, flash, NVMe, including those behind storage appliances
-  * not included or planned: management of storage network switches
   * manage block devices and their formatting
   * device create, destroy, resize, rename, reshape
   * this includes volumes on a storage appliance
@@ -51,6 +50,10 @@ related to storage. Here’s a high-level list of what it entails:
   * device created, destroyed, resized, renamed, or reshaped
   * file system created, destroyed, resized, modified (UUID, label)
   * file system mounted, unmounted
+
+
+The management of storage network switches is not planned, due to the lack of
+open source multi-vendor industry standards in this area.
 
 Project Comparisons
 ===================
