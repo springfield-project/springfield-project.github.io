@@ -72,12 +72,12 @@ Language Interfaces
 Functionality
 ------
 
-|   | controller based storage | directly-acessed storage | iscsi initiator | notification | plug-ins | model-ing | high-level API |
+|   | controller based storage | directly-acessed storage | iscsi initiator | notification | plugins | modeling | high-level API |
 | :--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | udisks         |   | ✓ | ✓ | ✓ | ✓ |   |   |
 | blivet         |   | ✓ |   | ✓ |   | ✓ | ✓ |
 | libblockdev    |   | ✓ |   |   | ✓ |   |   |
-| libstoragemgmt | ✓ | ✓ |   |   | ✓ |   |   |
+| libstoragemgmt | ✓ |   |   |   | ✓ |   |   |
 
 
 Interactions
@@ -131,5 +131,5 @@ help, just contact them (links for your convenience:
 Or, if you have an idea or suggestion or if you know about another project that
 would benefit from this joined effort, feel free to tell us. The more people
 cooperating, the better the result. In that case, you can write to David Lehman
-(dlehman@redhatcom) or Jan Tulak (jtulak@redhat.com).
+(dlehman@redhat.com) or Jan Tulak (jtulak@redhat.com).
 
