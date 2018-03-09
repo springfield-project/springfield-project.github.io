@@ -131,5 +131,5 @@ help, just contact them (links for your convenience:
 Or, if you have an idea or suggestion or if you know about another project that
 would benefit from this joined effort, feel free to tell us. The more people
 cooperating, the better the result. In that case, you can write to David Lehman
-(dlehman@redhat.com) or Jan Tulak (jtulak@redhat.com).
+(<dlehman@redhat.com>) or Jan Tulak (<jtulak@redhat.com>).
 
