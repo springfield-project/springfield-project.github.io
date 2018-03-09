@@ -2,4 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-#forkme_banner {display: none !important; }
+a:hover, a:focus {
+	font-weight: normal;
+	color: #07467a;
+}
