@@ -23,7 +23,7 @@ Springfield was presented for the first time at Vault 2017 in a birds of a feath
 
 
 Springfield builds upon and enhances the existing work of those projects:
-  * [udisks](https://github.com/storaged-project/udisks)
+  * [udisks](https://storageapis.wordpress.com/projects/udisks/)
   * [libblockdev](https://storageapis.wordpress.com/projects/libblockdev/)
   * [blivet](https://storageapis.wordpress.com/projects/blivet/)
   * [libstoragemgmt](https://libstorage.github.io/libstoragemgmt-doc/)
@@ -123,7 +123,7 @@ So, you'd like to contribute?
 
 Thank you for your interest! Any of the joined projects will appreciate your
 help, just contact them (links for your convenience:
-[udisks](https://github.com/storaged-project/udisks),
+[udisks](https://storageapis.wordpress.com/projects/udisks/),
 [libblockdev](https://storageapis.wordpress.com/projects/libblockdev/),
 [blivet](https://storageapis.wordpress.com/projects/blivet/),
 [libstoragemgmt](https://libstorage.github.io/libstoragemgmt-doc/)).
