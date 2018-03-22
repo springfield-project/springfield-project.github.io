@@ -84,7 +84,8 @@ Interactions
 ----
 
 ![A diagram of interactions between the projects.]({{ site.url }}/assets/images/interactions.svg)
-*A visual representation of the interactions between the projects. Dark blue is for Springfield projects.*
+*A visual representation of the interactions between the projects, with known
+users of Springfield projects and the backends Springfield provides.*
 
 What project should I use?
 =============================
