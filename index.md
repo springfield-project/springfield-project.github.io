@@ -3,6 +3,8 @@ title: Project Springfield
 layout: default
 ---
 
+For LSF 2018 slides see [this pdf](talks/springfield-lsf2018.pdf).
+
 What is Project Springfield?
 ============================
 
@@ -28,6 +30,7 @@ Springfield builds upon and enhances the existing work of those projects:
   * [blivet](https://storageapis.wordpress.com/projects/blivet/)
   * [libstoragemgmt](https://libstorage.github.io/libstoragemgmt-doc/)
 
+You can also find some information in [slides for conferences](talks/).
 
 OK, but what does it do?
 ========================
