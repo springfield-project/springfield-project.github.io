@@ -137,4 +137,4 @@ would benefit from this joined effort, feel free to tell us. The more people
 cooperating, the better the result. In that case, you can write us at
 <springfield@sourceware.org>. The mailing list archive is at
 <https://sourceware.org/ml/springfield/> and you can subscribe
-[here](https://sourceware.org/ml/).
+[here](https://sourceware.org/mailman/listinfo/springfield).
